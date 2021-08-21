@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./bmi.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <p>Body Mass Index</p>
+        </div>
+        <div class="form">
+            <form action="">
+                <div class="form-input">
+                    <div class="form-group">
+                        <input class="weight-f form-control" type="text" placeholder="Weight">
+                    </div>
+                    
+                    <div class="form-group height">
+                        <input class="height-f form-control" type="text" placeholder="Height">
+                    </div>
+                </div>
+
+                <div class="form-group text-bmi">
+                    <p>Your BMI: <span class="bmi">20.5</span></p>
+                </div>
+
+                <div class="form-group">
+                    <p class="result">You fucking fat</p>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="submit">
+                        Calculate
+                    </button>
+                </div>
+            </form>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

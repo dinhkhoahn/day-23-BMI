@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('fonts/SofiaPro-Medium.woff2') format('woff2'),
+        url('fonts/SofiaPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('fonts/SofiaPro-Bold.woff2') format('woff2'),
+        url('fonts/SofiaPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    font-family: 'Sofia Pro';
+    font-weight: bold;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+    font-weight: 500;
+}
+
+.container {
+    max-width: 440px;
+    margin: auto;
+    text-align: center;
+}
+
+.header p {
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.header {
+    margin-top: 105px;
+    margin-bottom: 23px;
+}
+
+form {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 23px;
+    text-align: center;
+}
+
+.form-group input {
+    width: 200px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    border: 0px solid #ACACAC;
+    border-radius: 8px;
+    padding-left: 17px;
+    background-image: url('./Rectangle-2.svg');
+}
+
+.form-control::placeholder {
+    padding-top: 18px;
+    padding-bottom: 14px;
+    color: #ACACAC;
+}
+
+.text-bmi {
+    margin-bottom: 7px;
+}
+
+.submit {
+    width: 132px;
+    height: 50px;
+    background-image: url('./Rectangle-3.svg');
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+@media (min-width: 500px) {
+    .form-input {
+        display: flex;
+    }
+
+    .height {
+        margin-left: 40px;
+    }
+}
